@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Longest Job First - Explanation</title>
+        <link rel="stylesheet" type="text/css" href="style2.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            .btn a{
+                margin-left: 80px;
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+
+    <body style="scroll-behavior: smooth; text-decoration: none; outline: none">
+        <div id="particles-js">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a
+                    class="navbar-brand"
+                    href="index.html"
+                    style="font-size: 20px; font-weight: 550"
+                    >Home</a
+                >
+                <a
+                    class="navbar-brand"
+                    href="index_CPU.html"
+                    style="font-size: 20px; font-weight: 550"
+                    >Algorithms</a
+                >
+                <a
+                    class="navbar-brand ml-auto"
+                    target="_blank"
+                    href="https://www.studytonight.com/operating-system/longest-job-first-scheduling-algorithm"
+                    style="
+                        font-size: 20px;
+                        font-weight: 550;
+                        position: absolute;
+                        right: 20px;
+                        top: 10px;
+                    "
+                    target="_blank"
+                    >Blog</a
+                >
+                <a
+                    class="navbar-brand ml-auto"
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=xsOjx2Ih1-s&list=PLEbnTDJUr_If_BnzJkkN_J0Tl3iXTL8vq&index=20"
+                    style="
+                        font-size: 20px;
+                        font-weight: 550;
+                        position: absolute;
+                        right: 100px;
+                        top: 10px;
+                    "
+                    target="_blank"
+                    >Tutorial</a
+                >
+            </nav>
+
+            <div class="title">
+                <h1 class="mb-5">CONCEPT - Longest Job First (LJF)</h1>
+                <iframe
+                    class="video"
+                    width="560"
+                    height="315"
+                    src="https://youtube.com/embed/FRvqyY2KtAk"
+                    title="YouTube video player"
+                    frameborder="1"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+                <div class="btn col-md-8">
+                    <a
+                        class="btn btn-outline-primary col-md-4"
+                        href="CPU-Algos/CPU_algo3.html"
+                        >Algorithm</a
+                    >
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <br />
+        <div class="container">
+            <section class="w3l-homeblock3">
+                <div class="midd-w3 py-5">
+                    <div class="container py-lg-5 py-md-3">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img
+                                    src="https://repository-images.githubusercontent.com/316158298/6521a100-34c0-11eb-8188-5b6c2679d3e7"
+                                    width="400"
+                                    height="2000"
+                                    alt=""
+                                    class="radius-image img-fluid"
+                                />
+                            </div>
+                            <div
+                                class="col-lg-6 mt-lg-0 mt-3 about-right-faq align-self"
+                            >
+                                <h1 class="title-big">
+                                    Longest Job First (LJF)
+                                </h1>
+                                <p class="mt-3">
+                                    Longest Job First (LJP) is a non-preemptive scheduling algorithm. 
+                                    Its preemptive version is called Longest Remaining Time First (LRTF) algorithm. 
+                                </p>
+                            
+                                <p class="mt-3">
+                                    This algorithm is based upon the burst time of the processes. 
+                                    The processes are put into the ready queue based on their burst times i.e., 
+                                    in descending order of the burst times. 
+                                    As the name suggests this algorithm is based upon the fact that 
+                                    the process with the largest burst time is processed first. 
+                                    The burst time of only those processes is considered that
+                                     have arrived in the system until that time. 
+                                </p>
+                                <ul class="w3l-lists mt-4">
+                                    <h3 class="title-small">Advantages:</h3>
+                                    <li>
+                                        <span
+                                            class="fa fa-check"
+                                            aria-hidden="true"
+                                        ></span
+                                        >No process can complete until the longest job also reaches its completion.
+                                    </li>
+                                    <li>
+                                        <span
+                                            class="fa fa-check"
+                                            aria-hidden="true"
+                                        ></span
+                                        >All the processes approximately finishes at the same time.
+                                    </li>
+
+                                    <br />
+                                    <h3 class="title-small">Disadvantages:</h3>
+                                    <li>
+                                        <span
+                                            class="fa fa-times"
+                                            aria-hidden="true"
+                                        ></span
+                                        >Processes with smaller burst time may starve for CPU.
+                                    </li>
+                                    <li>
+                                        <span
+                                            class="fa fa-times"
+                                            aria-hidden="true"
+                                        ></span
+                                        >It reduces the processing speed and thus reduces the efficiency 
+                                        and utilization of the system.
+                                    </li>
+                                    <li>
+                                        <span
+                                            class="fa fa-times"
+                                            aria-hidden="true"
+                                        ></span
+                                        >This algorithm gives very high average waiting time and 
+                                        average turn-around time for a given set of processes.
+                                        This may lead to convoy effect.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <h2>Algorithm</h2>
+            <hr class="my-4" />
+            <p style="font-size: 18px">
+                1.  First, sort the processes in 
+                increasing order of their Arrival Time. 
+                <br />
+                2. Choose the process having highest Burst Time
+                among all the processes that have arrived till that time. Then process it for its burst time. Check if any other 
+                process arrives until this process completes execution.
+                 <br />
+                3. Repeat the above both steps until
+                 all the processes are executed. <br />
+                
+                 Note- <br>
+                 If two processes have the same burst time then the tie is broken using 
+                 FCFS i.e., the process that arrived first is processed first. <br />
+            </p>
+            <p style="font-size: 20px"><span>>></span> Example :</p>
+            <p style="font-size: 18px">
+                
+                 For the four processes P1, P2, P3, P4 and P5, the arrival time is 0ms, 0ms, 2ms, 3ms and 4ms respectively.
+                   And the burst time forP1, P2, P3, P4 and P5 is 2ms, 3ms, 4ms, 5ms, and 4ms respectively.<br />
+                
+            </p>
+            
+            <p style="font-size: 18px">
+                <b>Working :</b><br />
+                Gantt chart for this example, <br />
+                <img
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20200606115219/IMG-20200606-WA0006.jpg"
+            /><br />
+                <br />
+            </p>
+            <p style="font-size: 18px">
+                Since, completion time (CT) can be directly determined by Gantt chart, and 
+                <br>
+                Turn Around Time (TAT)
+= (Completion Time) - (Arrival Time)
+<br>
+Also, Waiting Time (WT)
+= (Turn Around Time) - (Burst Time) 
+<br>
+Therefore, final table look like,  
+<br>
+<img
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20200606115316/IMG-20200606-WA0007.jpg"
+            /><br />
+
+
+            </p>
+            
+            <p style="font-size: 18px">
+                Total Turn Around Time = 40 ms<br>
+So, Average Turn Around Time = 40/5 = 8 ms<br>
+
+And, Total Waiting Time = 24 ms<br>
+So, Average Waiting Time = 24/5 = 4.8 ms 
+                = 226<br />
+            </p>
+
+            <hr class="my-4" />
+        </div>
+    </body>
+</html>

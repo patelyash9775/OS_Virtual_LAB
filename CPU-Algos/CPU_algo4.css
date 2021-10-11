@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#particles-js {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url('https://www.csshint.com/wp-content/uploads/2020/01/CSS-Animated-Backgrounds-2.gif');
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background: #fff;
+  transition: width 0.3s;
+}
+
+.navbar-brand:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 14%;
+  color: #fff;
+}
+
+.title h1 {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-title {
+  font-size: 3rem;
+  padding-bottom: 4%;
+}
+
+label {
+  font-size: 1.5rem;
+  padding-bottom: 2%;
+}
+
+.title h1:hover {
+  color: #007cba;
+  transition: color 0.2s;
+}
+
+
+.btn {
+  position: absolute;
+  left: 10%;
+}
+
+.btn a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content > .theory > .theory-step {
+  margin: 20px 0px;
+  background-color: #f7d7b7;
+  border-radius: 5px;
+  padding: 20px 100px 40px 100px;
+}
+
+.content > .theory > .theory-step > ul {
+  text-align: justify;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 550;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  color: rgb(2, 2, 2);
+  padding: 20px 0px 0px 20px;
+  list-style: none;
+}
+
+.content > .theory > .theory-step > ul > label {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #0925c7;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+
+.content > .theory > .theory-step > ul > li {
+  padding-bottom: 15px;
+}
+
+.visualizer {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 45px 20px 30px;
+  justify-content: center;
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(219, 240, 171);
+  border-radius: 5px;
+}
+
+.error {
+  background-color: rgba(255, 166, 0, 0.5);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  display: none;
+  color: rgb(129, 0, 0);
+  font-weight: 600;
+}
+
+.container {
+  padding: 10px 50px 10px 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.container > div:first-child {
+  width: 20%;
+  color: rgb(0, 0, 0);
+  position: relative;
+  font-size: 16px;
+}
+
+.container > div:first-child > .buttons {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+}
+
+.container > div:first-child > .buttons > div {
+  background-color: #5972d9;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 10px;
+}
+
+.container > div:first-child > .buttons > div:hover {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(57, 10, 177, 0.2),
+    rgba(0, 0, 0, 0.2)
+  );
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.container > div:first-child > div:not(:first-child) {
+  margin: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e0e0e0;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.container > div:first-child > div:not(:first-child) > span {
+  font-weight: 400;
+}
+
+.container > div:last-child {
+  width: 80%;
+  color: rgb(0, 0, 0);
+}
+
+.container > div:last-child > .add-process {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.container > div:last-child > .add-process > .input {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container > div:last-child > .add-process > .input > div {
+  display: flex;
+  align-items: center;
+  margin: 0px 30px;
+}
+
+.container > div:last-child > .add-process > .input > div > label {
+  margin: 5px;
+  font-weight: 500;
+}
+
+.container > div:last-child > .add-process > .input > div > input {
+  margin: 5px 0px;
+  border: 1px solid #cecece;
+  border-radius: 0;
+  padding: 3px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  width: 130px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.container > div:last-child > .add-process > .input > div > input:focus,
+.container > div:last-child > .add-process > .input > div > textarea:focus,
+.container > div:last-child > .add-process > .input > div > select:focus {
+  outline: none;
+  border: 1px solid #000000;
+}
+
+.container > div:last-child > .add-process > .add {
+  background-color: #099176;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 10px;
+  color: white;
+}
+
+.container > div:last-child > .add-process > .add:hover {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(57, 10, 177, 0),
+    rgba(0, 0, 0, 0.2)
+  );
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.table {
+  color: black;
+  margin: 10px 10px 10px 10px;
+}
+
+.table > table {
+  width: 100%;
+}
+
+.table > table,th,td{
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-collapse: collapse;
+}
+
+.table > table > thead > tr > th {
+  width: 9.5%;
+  font-weight: 600;
+  padding: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3)
+}
+
+.table > table > tbody > tr > td {
+  text-align: center;
+  padding: 5px;
+}
+
+.table > table > tbody > tr > td.del {
+  background-color: rgb(228, 27, 27);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.table > table > tbody > tr > td.del:hover {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(57, 10, 177, 0.1),
+    rgba(0, 0, 0, 0.1)
+  );
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+#chart {
+  font-family: "Work Sans", sans-serif;
+  margin: 15px;
+  padding: 15px;
+}
+
+#chart > #am > tr{
+  margin: 2px;
+}
+
+#container {
+  height: 500px;
+  margin: 0px 45px 20px 30px;
+  font-family: "Work Sans", sans-serif;
+  box-shadow: 0px 0px 5px 5px rgb(233, 233, 233);
+  border-radius: 5px;
+}
