@@ -28,9 +28,9 @@ You can see demo [Check Here](https://smit-1923.github.io/OSVirtualLab/)
 * Arrival Time, Burst Time, Completion Time, Waiting Time, Turn Around Time, Response Time
 * Types Of CPU Scheduling Algorithms
 
-
+<br />
 ![Screenshot (1953)](https://user-images.githubusercontent.com/71980446/141646572-fa8912d0-f49b-4274-8389-8c151fbadcce.png)
-
+<br /><br />
 
 ## Types Of CPU Scheduling Algorithms
 * FCFS scheduling algorithm
@@ -40,10 +40,10 @@ You can see demo [Check Here](https://smit-1923.github.io/OSVirtualLab/)
 * Priority Preemptive Scheduling algorithm
 * Round Robin scheduling algorithm
 
-
+<br />
 ![Screenshot (1954)](https://user-images.githubusercontent.com/71980446/141646589-d5a43144-6c2d-45fb-8384-20628aa3f6d8.png)
 
-
+<br /><br />
 
 ## Theory & Implementation Of CPU Scheduling Algorithms
 Likewise, these all six algorithms and their theory are implemented.
@@ -56,7 +56,7 @@ Likewise, these all six algorithms and their theory are implemented.
 
 ![Screenshot (1958)](https://user-images.githubusercontent.com/71980446/141646620-47697f6b-0339-4222-91d0-755562d2af45.png)
 
-
+<br /><br />
 ## Developed By
 1) [Pritesh Patel](https://www.linkedin.com/in/pritesh-patel-9a17981a5)   
 2) [Pushti Yadav](https://www.linkedin.com/in/pushti-yadav-19092001)  
