@@ -29,7 +29,9 @@ You can see demo [Check Here](https://smit-1923.github.io/OSVirtualLab/)
 * Types Of CPU Scheduling Algorithms
 
 <br />
+
 ![Screenshot (1953)](https://user-images.githubusercontent.com/71980446/141646572-fa8912d0-f49b-4274-8389-8c151fbadcce.png)
+
 <br /><br />
 
 ## Types Of CPU Scheduling Algorithms
@@ -41,6 +43,7 @@ You can see demo [Check Here](https://smit-1923.github.io/OSVirtualLab/)
 * Round Robin scheduling algorithm
 
 <br />
+
 ![Screenshot (1954)](https://user-images.githubusercontent.com/71980446/141646589-d5a43144-6c2d-45fb-8384-20628aa3f6d8.png)
 
 <br /><br />
