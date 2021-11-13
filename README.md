@@ -1,6 +1,6 @@
 # OSVirtualLab
 We made Operating System Virtual Lab where students are able to learn CPU Scheduling Algorithms from scratch and also implement Algorithms in this website. Here we also provide animated video for clearing basic ideas. And for deep understanding also various blogs and tutorials are available.   
-You can see demo [Check Here](https://smit-1923.github.io/OSVirtualLab/)
+You can see demo [Check Here](https://patelyash9775.github.io/OS_Virtual_LAB/)
 
 ## Languages are used in Project :- 
 
@@ -17,8 +17,12 @@ You can see demo [Check Here](https://smit-1923.github.io/OSVirtualLab/)
 ### Out of this four Section our team made CPU Scheduling Algorithms.  
 ### And Our Senior made Page Replacement Algorithms and Disk Scheduling Algorithms.
 
+<br />
+<br />
+
 ## Landing Page
-<img src="https://user-images.githubusercontent.com/68073132/115819376-552d3e00-a41c-11eb-9957-4d05795c3719.png" height="550">
+![Screenshot (1952)](https://user-images.githubusercontent.com/71980446/141646565-9a7eb989-dc42-41b5-8b63-5a0f5da30d1b.png)
+
 
 ## Basic Terms
 * CPU Scheduling
@@ -27,7 +31,11 @@ You can see demo [Check Here](https://smit-1923.github.io/OSVirtualLab/)
 * Arrival Time, Burst Time, Completion Time, Waiting Time, Turn Around Time, Response Time
 * Types Of CPU Scheduling Algorithms
 
-<img src="https://user-images.githubusercontent.com/68073132/115820084-c3becb80-a41d-11eb-907e-c0232c327d59.png" height="550">
+<br />
+
+![Screenshot (1953)](https://user-images.githubusercontent.com/71980446/141646572-fa8912d0-f49b-4274-8389-8c151fbadcce.png)
+
+<br /><br />
 
 ## Types Of CPU Scheduling Algorithms
 * FCFS scheduling algorithm
@@ -37,19 +45,24 @@ You can see demo [Check Here](https://smit-1923.github.io/OSVirtualLab/)
 * Priority Preemptive Scheduling algorithm
 * Round Robin scheduling algorithm
 
-<img src="https://user-images.githubusercontent.com/68073132/115820196-f8cb1e00-a41d-11eb-93df-267f646e8a22.png" height="550">
+<br />
+
+![Screenshot (1954)](https://user-images.githubusercontent.com/71980446/141646589-d5a43144-6c2d-45fb-8384-20628aa3f6d8.png)
+
+<br /><br />
 
 ## Theory & Implementation Of CPU Scheduling Algorithms
 Likewise, these all six algorithms and their theory are implemented.
 
-<img src="https://user-images.githubusercontent.com/68073132/115820615-cff75880-a41e-11eb-8057-fc2870c48540.png" height="550">
+![Screenshot (1955)](https://user-images.githubusercontent.com/71980446/141646608-c03653b4-deea-4fff-9c0d-e5fbeb24db0e.png)
 
-<img src="https://user-images.githubusercontent.com/68073132/115820455-7abb4700-a41e-11eb-8c55-3c467b15c8d5.png" height="550">
+![Screenshot (1956)](https://user-images.githubusercontent.com/71980446/141646610-04cfb4f3-c65e-4c3a-a572-dd587dde1fac.png)
 
-## Comparison Graph of All Six Algorithms
+![Screenshot (1957)](https://user-images.githubusercontent.com/71980446/141646612-f09b4a97-4317-4557-822c-ad364267c791.png)
 
-<img src="https://user-images.githubusercontent.com/68073132/115821015-983ce080-a41f-11eb-94c1-d7551c4b4c50.png" height="550">
+![Screenshot (1958)](https://user-images.githubusercontent.com/71980446/141646620-47697f6b-0339-4222-91d0-755562d2af45.png)
 
+<br /><br />
 ## Developed By
 1) [Pritesh Patel](https://www.linkedin.com/in/pritesh-patel-9a17981a5)   
 2) [Pushti Yadav](https://www.linkedin.com/in/pushti-yadav-19092001)  
