@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>SHORT JOB FIRST (SJF) - Implementation</title>
+        <title>Round Robin (RR) - Implementation</title>
 
         <link
             rel="stylesheet"
             type="text/css"
-            href="CPU_algo2.css"
+            href="CPU_algo6.css"
         />
 
         <link
@@ -72,13 +72,13 @@
                 >
                 <a
                     class="navbar-brand"
-                    href="./../index_CPU.html"
+                    href="./../index_Disk.html"
                     style="font-size: 20px; font-weight: 550"
                     >Algorithms</a
                 >
                 <a
                     class="navbar-brand ml-auto"
-                    href="https://www.codingninjas.com/blog/2021/08/26/shortest-job-first-sjf-cpu-scheduling-algorithm/"
+                    href="https://www.codingninjas.com/blog/2021/09/04/round-robin-cpu-scheduling-algorithm/"
                     style="
                         font-size: 20px;
                         font-weight: 550;
@@ -91,7 +91,7 @@
                 >
                 <a
                     class="navbar-brand ml-auto"
-                    href="https://www.youtube.com/watch?v=VCIVXPoiLpU&list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p&index=17"
+                    href="https://www.youtube.com/watch?v=TxjIlNYRZ5M"
                     style="
                         font-size: 20px;
                         font-weight: 550;
@@ -118,12 +118,12 @@
 
             <div class="title">
                 <h1 class="mb-5">
-                    IMPLEMENTATION - SHORT JOB FIRST (SJF)
+                    IMPLEMENTATION - Round Robin Algorithm (RR)
                 </h1>
                 <div class="btn col-md-8">
                     <a
                         class="btn btn-outline-primary col-md-4"
-                        href="./../CPU_algo2.html"
+                        href="./../CPU_algo6.html"
                         >Concept</a
                     >
                 </div>
@@ -137,28 +137,29 @@
             <ul>
               <label>STEP 1 :</label>
               <li>
-                Input the number of processes required to be scheduled using
-                SJF, burst time for each process and its arrival time.
+                Assume that initially there are no ready processes, when the
+                first one, A, arrives. It has priority 0 to begin with. Since
+                there are no other accepted processes, A is accepted
+                immediately.
               </li>
-              <br>
               <label>STEP 2 :</label>
               <li>
-                Sort all the process according to the arrival time.
+                After a while another process, B, arrives. As long as b / a < 1,
+                B’s priority will eventually catch up to A’s, so it is accepted;
+                now both A and B have the same priority.
               </li>
-              <br>
               <label>STEP 3 :</label>
               <li>
-                Then select that process which has minimum arrival time and 
-                minimum Burst time.
+                All accepted processes share a common priority (which rises at
+                rate b ); that makes this policy easy to implement i.e any new
+                process’s priority is bound to get accepted at some point. So no
+                process has to experience starvation.
               </li>
-              <br>
               <label>STEP 4 :</label>
               <li>
-                After completion of process make a pool of process which after 
-                till the completion of previous process and select that process 
-                among the pool which is having minimum Burst time.
+                Even if b / a > 1, A will eventually finish, and then B can be
+                accepted.
               </li>
-
             </ul>
           </div>
           </div>
@@ -173,9 +174,9 @@
               <div class="play">PLAY</div>
               <div class="reset">RESET</div>
             </div>
-            <div class="avg-tat">Average TAT : <span id="one">0</span></div>
-            <div class="avg-wt">Average WT : <span id="two">0</span></div>
-            <div class="avg-rt">Average RT : <span id ="three">0</span></div>
+            <div class="avg-tat">Average TAT : <span>0</span></div>
+            <div class="avg-wt">Average WT : <span>0</span></div>
+            <div class="avg-rt">Average RT : <span>0</span></div>
           </div>
           <div>
             <div class="add-process">
@@ -217,8 +218,8 @@
     </div>
     <div id="chart">
       <table id="am">
-        <tr class="r" id="row1"></tr>
-        <tr class="r" id="row2"></tr>
+        <tr id="row1"></tr>
+        <tr id="row2"></tr>
       </table>
     </div>
     <div class="barchart" id="container"></div>
@@ -226,6 +227,6 @@
     <script src="https://cdn.anychart.com/releases/8.0.0/js/anychart-base.min.js"></script>
     <script src="https://cdn.anychart.com/releases/8.0.0/themes/dark_earth.min.js" type="text/javascript"></script>
     <script src="https://cdn.anychart.com/releases/8.10.0/themes/light_earth.min.js" type="text/javascript"></script>
-    <script src="CPU_algo2.js"></script>
+    <script src="CPU_algo1.js"></script>
     </body>
 </html>

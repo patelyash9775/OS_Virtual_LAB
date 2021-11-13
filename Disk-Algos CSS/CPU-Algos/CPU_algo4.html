@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>SHORT JOB FIRST (SJF) - Implementation</title>
+        <title>Shortest Remaining Time First(SRTF) - Implementation</title>
 
         <link
             rel="stylesheet"
             type="text/css"
-            href="CPU_algo2.css"
+            href="CPU_algo4.css"
         />
 
         <link
@@ -58,6 +58,12 @@
             href="//fonts.googleapis.com/css2?family=Manrope:wght@200;400;600&display=swap"
             rel="stylesheet"
         />
+        <style>
+          .btn a{
+              margin-right: 100px;
+              
+          }
+      </style>
 
     </head>
 
@@ -78,7 +84,7 @@
                 >
                 <a
                     class="navbar-brand ml-auto"
-                    href="https://www.codingninjas.com/blog/2021/08/26/shortest-job-first-sjf-cpu-scheduling-algorithm/"
+                    href="https://javahungry.blogspot.com/2013/11/shortest-remaining-time-first-srt-preemptive-non-preemptive-sjf-scheduling-algorithm-with-example-java-program-code.html"
                     style="
                         font-size: 20px;
                         font-weight: 550;
@@ -91,7 +97,7 @@
                 >
                 <a
                     class="navbar-brand ml-auto"
-                    href="https://www.youtube.com/watch?v=VCIVXPoiLpU&list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p&index=17"
+                    href="https://www.youtube.com/watch?v=hoN7_VMzw_g"
                     style="
                         font-size: 20px;
                         font-weight: 550;
@@ -118,12 +124,12 @@
 
             <div class="title">
                 <h1 class="mb-5">
-                    IMPLEMENTATION - SHORT JOB FIRST (SJF)
+                    IMPLEMENTATION - Shortest Remaining Time First(SRTF)
                 </h1>
                 <div class="btn col-md-8">
                     <a
                         class="btn btn-outline-primary col-md-4"
-                        href="./../CPU_algo2.html"
+                        href="./../CPU_algo4.html"
                         >Concept</a
                     >
                 </div>
@@ -137,28 +143,21 @@
             <ul>
               <label>STEP 1 :</label>
               <li>
-                Input the number of processes required to be scheduled using
-                SJF, burst time for each process and its arrival time.
+                First, sort the processes in increasing order of their Arrival
+                Time.
               </li>
               <br>
               <label>STEP 2 :</label>
               <li>
-                Sort all the process according to the arrival time.
+                Choose the process having least arrival time with least Burst
+                Time. Then process it for 1 unit. Check if any other process
+                arrives upto that time of execution or not.
               </li>
               <br>
               <label>STEP 3 :</label>
               <li>
-                Then select that process which has minimum arrival time and 
-                minimum Burst time.
+                Repeat the above both steps until execute all the processes.
               </li>
-              <br>
-              <label>STEP 4 :</label>
-              <li>
-                After completion of process make a pool of process which after 
-                till the completion of previous process and select that process 
-                among the pool which is having minimum Burst time.
-              </li>
-
             </ul>
           </div>
           </div>
@@ -173,9 +172,9 @@
               <div class="play">PLAY</div>
               <div class="reset">RESET</div>
             </div>
-            <div class="avg-tat">Average TAT : <span id="one">0</span></div>
-            <div class="avg-wt">Average WT : <span id="two">0</span></div>
-            <div class="avg-rt">Average RT : <span id ="three">0</span></div>
+            <div class="avg-tat">Average TAT : <span>0</span></div>
+            <div class="avg-wt">Average WT : <span>0</span></div>
+            <div class="avg-rt">Average RT : <span>0</span></div>
           </div>
           <div>
             <div class="add-process">
@@ -217,8 +216,8 @@
     </div>
     <div id="chart">
       <table id="am">
-        <tr class="r" id="row1"></tr>
-        <tr class="r" id="row2"></tr>
+        <tr id="row1"></tr>
+        <tr id="row2"></tr>
       </table>
     </div>
     <div class="barchart" id="container"></div>
@@ -226,6 +225,6 @@
     <script src="https://cdn.anychart.com/releases/8.0.0/js/anychart-base.min.js"></script>
     <script src="https://cdn.anychart.com/releases/8.0.0/themes/dark_earth.min.js" type="text/javascript"></script>
     <script src="https://cdn.anychart.com/releases/8.10.0/themes/light_earth.min.js" type="text/javascript"></script>
-    <script src="CPU_algo2.js"></script>
+    <script src="CPU_algo4.js"></script>
     </body>
 </html>
