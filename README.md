@@ -17,6 +17,9 @@ You can see demo [Check Here](https://smit-1923.github.io/OSVirtualLab/)
 ### Out of this four Section our team made CPU Scheduling Algorithms.  
 ### And Our Senior made Page Replacement Algorithms and Disk Scheduling Algorithms.
 
+<br />
+<br />
+
 ## Landing Page
 ![Screenshot (1952)](https://user-images.githubusercontent.com/71980446/141646565-9a7eb989-dc42-41b5-8b63-5a0f5da30d1b.png)
 
