@@ -1,6 +1,6 @@
 # OSVirtualLab
 We made Operating System Virtual Lab where students are able to learn CPU Scheduling Algorithms from scratch and also implement Algorithms in this website. Here we also provide animated video for clearing basic ideas. And for deep understanding also various blogs and tutorials are available.   
-[Check Here](https://smit-1923.github.io/OSVirtualLab/)
+You can see demo [Check Here](https://smit-1923.github.io/OSVirtualLab/)
 
 ## Languages are used in Project :- 
 
