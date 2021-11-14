@@ -176,6 +176,28 @@ label {
   font-weight: 500;
 }
 
+.container > div:first-child > .time-q {
+  display: flex;
+  align-items: center;
+}
+
+.container > div:first-child > .time-q > input {
+  margin: 5px 0px;
+  border: 1px solid #cecece;
+  border-radius: 0;
+  padding: 3px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  width: 50px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.container > div:first-child > .time-q > input:focus {
+  outline: none;
+  border: 2px solid #000000;
+}
+
 .container > div:first-child > div:not(:first-child) > span {
   font-weight: 400;
 }
