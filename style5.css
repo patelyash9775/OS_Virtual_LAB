@@ -5,8 +5,8 @@
 	padding: 0;
 }
 #particles-js{
-	height: 180vh;
-	background-image:  url("https://wallpaperaccess.com/full/188646.jpg");
+	height: 160vh;
+	background-image: url("https://wallpaperaccess.com/full/188646.jpg");
 	background-position: center;
 	background-size: cover;
 }
