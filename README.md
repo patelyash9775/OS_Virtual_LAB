@@ -63,6 +63,13 @@ Likewise, these all six algorithms and their theory are implemented.
 ![Screenshot (1958)](https://user-images.githubusercontent.com/71980446/141646620-47697f6b-0339-4222-91d0-755562d2af45.png)
 
 <br /><br />
+
+## Comparison of Algorithms
+![Screenshot (1959)](https://user-images.githubusercontent.com/71980446/141694679-e7beccde-3766-4fd5-b1a4-8e1b02af9c15.png)
+![Screenshot (1960)](https://user-images.githubusercontent.com/71980446/141694711-ea7b7a7b-a72a-4053-91db-6dc49a0e8b8a.png)
+
+<br /><br />
+
 ## Developed By
 1) [Pritesh Patel](https://www.linkedin.com/in/pritesh-patel-9a17981a5)   
 2) [Pushti Yadav](https://www.linkedin.com/in/pushti-yadav-19092001)  
