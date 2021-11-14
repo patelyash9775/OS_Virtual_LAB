@@ -5,7 +5,7 @@
 }
 
 body{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(https://www.cypherium.io/wp-content/uploads/2020/07/Home-Banner-Image.jpg);
+  background-image: url("https://wallpaperaccess.com/full/188646.jpg");
   min-height: 100vh;
   transition:  all 3s;
 }
