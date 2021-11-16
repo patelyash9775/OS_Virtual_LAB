@@ -66,7 +66,8 @@ Likewise, these all six algorithms and their theory are implemented.
 
 ## Comparison of Algorithms
 ![Screenshot (1959)](https://user-images.githubusercontent.com/71980446/141694679-e7beccde-3766-4fd5-b1a4-8e1b02af9c15.png)
-![Screenshot (1960)](https://user-images.githubusercontent.com/71980446/141694711-ea7b7a7b-a72a-4053-91db-6dc49a0e8b8a.png)
+![Screenshot (1971)](https://user-images.githubusercontent.com/71980446/142033524-6c98b1aa-3fa7-450e-a978-35b3708fc73d.png)
+![Screenshot (1972)](https://user-images.githubusercontent.com/71980446/142033599-bec3d166-9093-4565-96e9-10680d87d864.png)
 
 <br /><br />
 
