@@ -70,9 +70,10 @@ let add_button = document.querySelector(
   var rowLength;
   var pid;
   var data = {
-    header: ["processId", "Completion Time"],
+    header: ["Algorithm", "Turn Around Time"],
     rows: [],
   };
+  
   
   function run_algorithm(e) {
     //processArr = [];
@@ -167,9 +168,42 @@ let add_button = document.querySelector(
         });
     
     console.log(processArr);
-    processArr.forEach((a, index) => {
-      data.rows[index] = [a.pid, a.ct];
+    let aTAT = avgTAT/processArr.length;
+    let aTAT1 = avgTAT1/processArr.length;
+    let aTAT2 = avgTAT2/processArr.length;
+
+    data.rows[0]=["FCFS",aTAT];
+    data.rows[1]= ["SJF",aTAT1];
+    data.rows[2] = ["LJF",aTAT2];
+
+    anychart.onDocumentReady(function () {
+    
+      anychart.theme(anychart.themes.lightEarth);
+  
+     
+      // set a data from process array for tat chart
+  
+      console.log(data);
+      // create the chart
+      var chart = anychart.bar();
+  
+      // add data
+      chart.data(data);
+  
+      chart.background().stroke({
+        keys: [".1 red", ".5 yellow", ".9 blue"],
+        angle: 45,
+        thickness: 5
+      });
+  
+      // set the chart title
+      chart.title("TAT comparison For Different Algo");
+  
+      // draw
+      chart.container("container");
+      chart.draw();
     });
+    
   
 
   }
