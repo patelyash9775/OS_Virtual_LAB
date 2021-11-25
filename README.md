@@ -50,8 +50,8 @@ You can see demo [Check Here](https://patelyash9775.github.io/OS_Virtual_LAB/)
 
 ![Screenshot (1957)](https://user-images.githubusercontent.com/71980446/143481710-5128a153-355a-4ccc-8f29-925a070d174d.png)
 
-Click the algo which you want to schedule the processes and go to implementation web page, and then Add the arrival time and burst time for different processes you want to consider for the implementation of the algorithm by entering arrival time, Burst time and then click on ADD. <br />
-Deletion of an entry is possible from table if you want by clicking on DELETE. <br />
+Click the algo which you want to schedule the processes and go to implementation web page, and then Add the arrival time and burst time for different processes you want to consider for the implementation of the algorithm by entering arrival time, Burst time and then click on ADD. <br /> <br />
+Deletion of an entry is possible from table if you want by clicking on DELETE. <br /> <br />
 After adding all processes and selecting the scheduling algorithm click on RUN button which will find turn around time, response time, completion time and waiting time for all processes and Average turn around time, Avg Waiting time and Average response time. Also, line graphs for the completion time for the different process.
 
 <br /><br />
