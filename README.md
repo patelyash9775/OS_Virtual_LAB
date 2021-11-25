@@ -2,12 +2,6 @@
 We made Operating System Virtual Lab where students are able to learn CPU Scheduling Algorithms from scratch and also implement Algorithms in this website. Here we also provide animated video for clearing basic ideas. And for deep understanding also various blogs and tutorials are available.   
 You can see demo [Check Here](https://patelyash9775.github.io/OS_Virtual_LAB/)
 
-## Languages are used in Project :- 
-
-1. HTML
-2. CSS
-3. javascript
-
 ## Section Of Operating System Virtual Lab 
 *   Disk Scheduling 
 *   Page Replacement 
@@ -51,23 +45,38 @@ You can see demo [Check Here](https://patelyash9775.github.io/OS_Virtual_LAB/)
 
 <br /><br />
 
-## Theory & Implementation Of CPU Scheduling Algorithms
-Likewise, these all six algorithms and their theory are implemented.
+## How to run the algo :- 
 
-![Screenshot (1955)](https://user-images.githubusercontent.com/71980446/141646608-c03653b4-deea-4fff-9c0d-e5fbeb24db0e.png)
 
-![Screenshot (1956)](https://user-images.githubusercontent.com/71980446/141646610-04cfb4f3-c65e-4c3a-a572-dd587dde1fac.png)
+![Screenshot (1957)](https://user-images.githubusercontent.com/71980446/143481710-5128a153-355a-4ccc-8f29-925a070d174d.png)
 
-![Screenshot (1957)](https://user-images.githubusercontent.com/71980446/141646612-f09b4a97-4317-4557-822c-ad364267c791.png)
-
-![Screenshot (1958)](https://user-images.githubusercontent.com/71980446/141646620-47697f6b-0339-4222-91d0-755562d2af45.png)
+Click the algo which you want to schedule the processes and go to implementation web page, and then Add the arrival time and burst time for different processes you want to consider for the implementation of the algorithm by entering arrival time, Burst time and then click on ADD. <br />
+Deletion of an entry is possible from table if you want by clicking on DELETE. <br />
+After adding all processes and selecting the scheduling algorithm click on RUN button which will find turn around time, response time, completion time and waiting time for all processes and Average turn around time, Avg Waiting time and Average response time. Also, line graphs for the completion time for the different process.
 
 <br /><br />
 
-## Comparison of Algorithms
-![Screenshot (1959)](https://user-images.githubusercontent.com/71980446/141694679-e7beccde-3766-4fd5-b1a4-8e1b02af9c15.png)
-![Screenshot (1971)](https://user-images.githubusercontent.com/71980446/142033524-6c98b1aa-3fa7-450e-a978-35b3708fc73d.png)
-![Screenshot (1972)](https://user-images.githubusercontent.com/71980446/142033599-bec3d166-9093-4565-96e9-10680d87d864.png)
+## How to contribute in this project :- 
+
+You can directly fork or clone this project using command line to your system and make changes. <br />
+### Steps: 
+Below are the steps you can use to further run this project on your own and make changes to them according to your need and requirement.  <br />
+For Downloading the all codes file, you can use this command in your command prompt :-    <br />
+Git clone https://github.com/patelyash9775/OS_Virtual_LAB.git   <br /> <br />
+For the Forking this project , you can use this command in your GitHub CLI Tools :-   <br />
+gh repo fork https://github.com/patelyash9775/OS_Virtual_LAB.git --clone
+  
+  <br />
+After Completing the changes in your local repo or changes in your local storage device, you can push your edited Code to the GitHub Repo and your task terminates there.  
+
+
+<br /><br />
+
+## Languages are used in Project :- 
+
+1. HTML
+2. CSS
+3. javascript
 
 <br /><br />
 
